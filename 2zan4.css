@@ -1,0 +1,92 @@
+@import url("reset.css") screen;
+
+
+ .top {
+ 	position: relative;
+ 	width: 840px;
+ }
+ #menu {
+  position: absolute;
+  bottom: 750px;
+  left: 240px;
+ }
+  #middle {
+  	position: relative;
+  	border: 1px solid white;
+  	height: 1105px;
+  	width: 840px;
+  	top: 0;
+  }
+  #aside {
+  	position: relative;
+  	border: 1px solid gray;
+  	background: #A9A9A9;
+  	height: 760px;
+  	width: 245px;
+  	border-radius: 10px;
+  	float: right;
+  	bottom: 1175px;
+  	right: 5px;
+  }
+  h2#html {
+  	position: relative;
+  	left: 5px;
+  }
+  h2.heading1 {
+  	position: relative;
+  	left: 5px;
+  	bottom: 15px;
+  }
+  h2.heading2 {
+  	position: relative;
+  	left: 5px;
+  	bottom: 30px;
+  }
+  h2.heading3 {
+  	position: relative;
+  	left: 5px;
+  	bottom: 70px;
+  }
+  h3 {
+  	position: relative;
+  	left: 5px;
+  }
+  p.par {
+  	position: relative;
+  	width: 500px;
+  	left: 5px;
+  	bottom: 20px;
+  	white-space: nowrap;
+  	font-size: 110%;
+  }
+  p.par-asida {
+  	position: relative;
+  	bottom: 10px;
+  	left: 2px;
+  	white-space: pre;
+  }
+  #topreturn {
+  	position: relative;
+  	bottom: 105px;
+  	left: 5px;
+  	font-size: 110%;
+  }
+  p.parpre {
+    position: relative;
+    white-space: pre;
+    font-size: 110%;
+    left: 5px;
+    bottom: 65px;
+  }
+  p.par3 {
+  	position: relative;
+  	left: 5px;
+  	bottom: 80px;
+  	font-size: 110%;
+
+  }
+  #lowland {
+  	position: relative;
+  	width: 840px;
+  	bottom: 5px;
+  }

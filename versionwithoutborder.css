@@ -1,0 +1,114 @@
+* { padding: 0; margin: 0; }
+
+body {
+	background: grey;
+}
+#top {
+	border: 1px;
+	border-radius: 10px;
+	background: white;
+	width: 720px;
+	height: 120px;
+    margin: auto;
+    top: 5px;
+}
+#middle {
+	position: relative;
+	border: 1px;
+	border-radius: 10px;
+	background: white;
+	width: 720px;
+	height: 170px;
+    margin: auto;
+}
+table#calcul {
+	position: relative;
+	left: 250px;
+	top: 5px;
+}
+#lowland {
+	position: relative;
+	border: 1px;
+	border-radius: 10px;
+	width: 720px;
+	height: 40px;
+	background: white;
+	margin: auto;
+}
+#con {
+	position: relative;
+	left: 300px;
+}
+h1 {
+	position: relative;
+	bottom: 65px;
+	left: 190px;
+}
+#logo {
+	position: relative;
+	left: 5px;
+	top: 5px;
+
+}
+ #menu {
+    display:block;
+    position:absolute;
+    top:90px;
+    left:630px;
+    text-decoration: none;
+  }
+  #menu > li {
+    display:inline-block;
+    height:20px;
+    position:relative;
+  }
+  #menu > li > ul {
+    position:absolute;
+    top:20px;
+    display:none; 
+
+  }
+  #menu > li:hover > ul {
+    border: 1px solid black;
+    background: white;
+    display:block; 
+    z-index: 9; 
+    color: blue;
+    list-style: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+  }
+  .anybotton {
+  	position: relative;
+  	background: #F5F2F2;
+  	text-align: center;
+  	width: 50px;
+  	height: 25px;
+  	border-radius: 5px;
+  }
+  #buttonequal {
+  	position: relative;
+  	text-align: center;
+  	background: #F5F2F2;
+  	width: 50px;
+  	height: 50px;
+  	border-radius: 5px;
+  }
+  #buttonzero {
+  	position: relative;
+  	text-align: center;
+  	background: #F5F2F2;
+  	width: 100px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  #emptyfield {
+    position: absolute;
+    bottom: 120px;
+    background: white;
+    width: 260px;
+    height: 25px;
+    border-color: 1px solid #F5F2F2;
+    border-bottom-color: white;
+  }

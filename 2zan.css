@@ -1,0 +1,53 @@
+* { padding: 0; margin: 0; }
+
+body {
+	background: gray;
+}
+#top {
+	border: 1px;
+	border-radius: 10px;
+	background: white;
+	width: 720px;
+	height: 150px;
+    margin: auto;
+}
+#logo {
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+h1 {
+	position: relative;
+	text-align: center;
+	bottom: 70px;
+	
+}
+#menu {
+	position: relative;
+	bottom: 60px;
+	left: 180px;
+}
+#middle {
+	border: 1px;
+	border-radius: 10px;
+	background: white;
+	width: 720px;
+	height: 80px;
+    margin: auto;
+    position: relative;
+    bottom: 17px;
+}
+#lowland {
+	border: 1px;
+	border-radius: 10px;
+	background: white;
+	width: 720px;
+	height: 40px;
+    margin: auto;
+    position: relative;
+    bottom: 17px;
+}
+.con {
+	position: relative;
+	left: 300px;
+}

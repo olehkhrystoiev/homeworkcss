@@ -1,0 +1,62 @@
+@import url("reset.css") screen;
+
+
+
+#middle {
+	position: relative;
+	height: 540px;
+	line-height: 0,5;
+}
+#firstp {
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+#version1 {
+	position: relative;
+	bottom: 10px;
+	left: 5px;
+}	
+p {
+	position: relative;
+	bottom: 25px;
+	left: 5px;
+}
+#version2,#version3 {
+    position: relative;
+	bottom: 40px;
+	left: 5px;
+}
+#line3 {
+	position: relative;
+	bottom: 55px;
+	left: 5px;
+}
+#version3 {
+	position: relative;
+	bottom: 70px;
+}
+#line4 {
+	position: relative;
+	bottom: 85px;
+	left: 5px;
+}
+#version4 {
+	position: relative;
+	bottom: 100px;
+	left: 5px;
+}
+#line5 {
+	position: relative;
+	bottom: 115px;
+}
+#version5 {
+	position: relative;
+	bottom: 130px;
+	left: 5px;
+}
+#buttonres {
+	position: relative;
+	bottom: 145px;
+	left: 5px;
+}
